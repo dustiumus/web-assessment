@@ -5,8 +5,15 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('Submitted!')
 }
+
+const rubberDuck = document.querySelector('img');
+
+rubberDuck.addEventListener('mouseover', () => {
+	alert('You Rock!');
+})
+
 
 
 let form = document.querySelector('form#contact');
